@@ -1,11 +1,11 @@
 ﻿using System;
-using ABC;
+using AccessModifierAndMethods;
 
 class Program
 {
     static void Main2342()
     {        
-        SelectionStatement selectionStatement = new SelectionStatement();
-        selectionStatement.LearnSwitchCases();
+        AccessModifier accessModifier = new AccessModifier();
+        accessModifier.DoSomething();
     }
 }
