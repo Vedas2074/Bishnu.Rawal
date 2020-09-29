@@ -1,0 +1,9 @@
+dotnet new console -n CSharpBasics
+cd CSharpBasics
+dotnet build
+dotnet run
+
+Git Commands
+$ git clone https://github.com/Vedas2074/Bishnu.Rawal.git
+$ cd Bishnu.Rawal
+$ git status
