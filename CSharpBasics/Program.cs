@@ -1,17 +1,15 @@
-﻿using System;
-using AccessModifierAndMethods;
+﻿using LearningClasses;
 
 class Program
 {
     static void Main2342()
-    {        
-        AccessModifier accessModifier = new AccessModifier();
-        accessModifier.DoSomething();
+    {       
+        var person1 = new Person("Bishnu", "Ktm");
+        var person2 = new Person("Ramesh", "Bhaktapur", 23);
+        var person3 = new Person("Rame", "Bhaktapur", 20);
 
-        Person person = new Person();
-        person.Name = "Bishnu";
-        person.Age = 179;
+        var person4 = new Person();
+        
 
-        var x = person.Address;
     }
 }

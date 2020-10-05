@@ -1,4 +1,4 @@
-class Person
+class Human
 {
     byte age = 23;
 
