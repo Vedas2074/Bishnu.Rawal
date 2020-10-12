@@ -11,7 +11,12 @@ public abstract class Shape
     }
 }
 
-public class Rectangle : Shape
+public interface IDiagonalComputable
+{
+    public double GetDiagonalLength();
+}
+
+public class Rectangle : Shape, IDiagonalComputable
 {
     public Rectangle(double l, double b)
     {
@@ -22,6 +27,7 @@ public class Rectangle : Shape
     public double Length { get; set; }
     public double Breadth { get; set; }
     public override double GetArea() => Length * Breadth;
+    public double GetDiagonalLength() => Math.Sqrt(Length * Length + Breadth * Breadth);
     public override double GetPerimeter() => 2 * (Length + Breadth);
 
     public override void PrintDetails()
