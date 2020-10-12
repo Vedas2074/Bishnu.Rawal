@@ -4,7 +4,7 @@ class IterationStatement
 {
     // Pascal case: IterationStatement
     // Camel case: iterationStatement
-    static void Main()
+    static void Main123()
     {
         IterationStatement iterationStatement = new IterationStatement();
         iterationStatement.LearnWhileLoops();
