@@ -66,7 +66,7 @@ class A
 {
 }
 
-class B : A
+class B
 {
 }
 
@@ -74,6 +74,7 @@ class C : B
 {
 }
 
+// Class- Is-a relationship, Interface - Has-a relationship
 class D: A, IX, IY
 {
 }
